@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIVA/FITTER</title>
+    <link rel="stylesheet" href="logo.css">
+    <link rel="shortcut icon" href="788.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body{
+            
+            margin: 0px;
+            padding: 0px;
+            background: url("bg.jpg");
+           
+            font-size: 100%;
+        
+          
+        }
+       
+        
+        .left{
+            position: absolute;
+            left: 3px;
+            top: 22px;
+            display: inline-block;
+            
+
+            
+
+        }
+        .mid{
+            
+            display: block;
+            width: 40%;
+           
+            margin :  auto;
+            border: 2px;
+            font-size: larger;
+
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 22px;
+            display: inline-block;
+
+
+
+         
+
+        }
+        .mid ul{
+            overflow: auto;
+            list-style: none;
+            font-size: 100%
+            
+            
+            
+        }
+        .mid ul a{
+            color: white;
+            text-decoration: none;
+        }
+        .mid a:hover{
+            color: blue;
+        }
+        .mid ul li{
+            float: left;
+            margin: 10px;
+            padding: 3px
+            
+        }
+    
+       
+        .left img{
+            width:100px ;
+            display: inlines;
+           
+        }
+        #shiva{
+            color: white;
+            margin-left: 30px;
+
+        }
+        .right button{
+            border-radius: 22%;
+            background-color: transparent;
+            color: white;
+
+            
+            }
+        .right button a{
+                border-radius: 22%;
+                background-color: white(134, 38, 87);
+                text-decoration: none;
+                color: white;
+                font-size: medium;
+                }
+        .right a:hover{
+            color: blue;
+        }      
+        .container{
+            color: white;
+            border:2px ;
+            margin: 100px 80px;
+            padding :75px;
+            width: 32%;
+            border-radius: 33px;
+
+            
+        }  
+        #f{
+            margin-left: 200px;
+
+        }
+        #s{
+           margin-left: 180px;
+        }
+        .group  input{
+            border:3px solid black;
+            text-align: center;
+            border-radius: 33px;
+            margin-left: 34%;
+
+
+        }
+        .btn{
+            border:3px;
+           margin-left: 200px;
+            border-radius: 20px;
+            margin-top: 3px;
+            
+
+           
+
+        }
+        .btn button{
+            border-radius: 20px;
+            background-color: transparent;
+            width: 30%;
+            
+            
+
+        }
+        .btn button a{
+            border-radius: 20px;
+            background-color: transparent;
+            color: white;
+            text-decoration: none;
+            
+
+            
+
+        }
+        .btn button a:hover{
+            border-radius: 20px;
+            background-color: transparent;
+            color: blue;
+            text-decoration: none;
+            
+
+            
+
+        }
+        .login{
+            margin-left: 60%;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            border: 2px solid black;
+            width: 32%;
+            height: 68%;
+           background-image: url('https://thumbs.dreamstime.com/b/d-sphere-global-digital-connections-technology-vector-illustration-can-be-used-banner-flyer-book-cover-poster-53337180.jpg');
+        }
+        #fit{
+            margin-left: 39%;
+            color: white;
+        }
+       .btnlogin input{
+        border: 2px solid black;
+        border-radius: 23px;
+        margin-left: 33%;
+        margin-top: 3px;
+        padding: 2px;
+        text-align: center;
+       }
+       .btnl button{
+        background: transparent;
+        margin-left: 45%;
+        margin-top: 5px;
+        border: 2px solid white;
+        border-radius: 23px;
+       }
+       .btnl input{
+        border: 2px solid black;
+        
+       }
+       .btnl button a{
+        
+        text-decoration: none;
+        color: white;
+        background: transparent;
+        
+        
+       }
+       .btnl button a:hover{
+        color: blue;
+        background: transparent
+        
+       }
+       hr{
+        font-weight: 20px;
+        text-decoration: dotted;
+
+        
+       }
+       
+		section {
+           
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			padding: 20px;
+			background: url(78.jpg);
+            background: transparent;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		
+		.product {
+			flex-basis: calc(33.33% - 20px);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #f0f0f0;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			text-align: center;
+		}
+		
+		.product img {
+			max-width: 200%;
+			max-height: 400px;
+			margin-bottom: 10px;
+			
+		}
+		
+		.product h3 {
+			font-size: 24px;
+			margin: 10px 0;
+		}
+		
+		.product p {
+			font-size: 18px;
+			margin: 10px 0;
+			color: #666666;
+		}
+        footer{
+            padding-left:45%;
+            font-weight: 10px;
+            background-color: rgb(74, 47, 14);
+            color: white;
+            
+        }
+       footer h3 a:hover{
+        text-decoration: none;
+        color: white;
+       }
+       .pp{
+        background:url(5555.jpg);
+       }
+
+            
+        
+        
+   
+    </style>
+    
+</head>
+<body>
+    <header class="head">
+        <div class="left">
+            <!-- left for logo -->
+            <img src="logo.png" alt="">
+            <div id="shiva">SHIVA</div>
+            
+
+        </div>
+        <div class="mid">
+            <!-- mid for option -->
+            <ul>
+                <li><a href="https://www.anytimefitness.co.in/"target="_blank">Home</a></li>
+                <li><a href="https://www.anytimefitness.co.in/training/">Classes</a></li>
+                <li><a href="https://www.anytimefitness.co.in/franchise-opportunities/">Membership</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">My Account</a></li>
+               
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- right for button -->    
+            <button><a href="#">Call Us</a></button>
+            <button><a href="#">Mail</a></button>
+           
+                 
+        </div>
+
+        </div>
+
+        
+    </header>
+    <div class="container">
+        <h1 id="f"> SHIVA</h1>
+        <h1 id="s">Join Now</h1>
+        <form action="action.php"></form>
+        <div class="group">
+        <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="group">
+            <input type="text" name="" placeholder="Enter Your Mobile No.">
+            </div>
+        <div class="group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="group">
+            <input type="text" name="" placeholder="Enter Your Address">
+        </div>
+        <div class="btn">
+            <button><a href="">Sumbit</a></button>
+        </div>
+    </div>
+    
+</div>
+<div class="login">
+    <h1 id="fit">LOGIN</h1>
+    <form action="create.php"></form>
+    <div class="btnlogin">
+        <input type="text" placeholder="Enter Your Gmail">
+        
+
+    </div>
+    <div class="btnlogin">
+        <input type="text" placeholder="Enter Password">
+        
+
+    </div>
+    
+    <div class="btnl">
+        <button> <a href="">Login</a></button>
+        
+
+    </div>
+    <div class="pp"></div><br><br>
+
+    
+</div>
+
+<div class="container">
+    <h1 id="f"> <strong> </strong></h1>
+    <h1 id="s">Order Now</h1>
+    <form action="action.php"method="post">
+    <div class="group">
+    <input type="text" name="" placeholder="category">
+    </div>
+    <div class="group">
+        <input type="text" name="" placeholder="product">
+        </div>
+    <div class="group">
+        <input type="text" name="" placeholder="Price">
+    </div>
+    <div class="group">
+        <input type="text" name="" placeholder="Enter Your Address">
+    </div>
+    <div class="btn">
+        <button><a href="https://www.amazon.in/s?k=fitness+stuff&adgrpid=1322714098139193&hvadid=82669889965346&hvbmt=be&hvdev=c&hvlocphy=155713&hvnetw=o&hvqmt=e&hvtargid=kwd-82670516471366%3Aloc-90&hydadcr=15478_2175178&tag=msndeskstdin-21&ref=pd_sl_1u39crz9fa_e"target="_blank">Buy Now</a></button>
+    </div>
+</form>
+</div>
+<hr>
+<hr>
+<section>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <div class="product">
+        <img src="999.png" alt="Product 1">
+        <h3>Reach Vision Magnetic Stationary </h3>
+        
+        <button><a href="https://amzn.eu/d/eTG6IHa"target="_blank">Add to Cart</a></button>
+    </div>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    &nbsp;
+    
+    <div class="product" >
+        <img src="7777.png" alt="Product 2">
+        <h3>Flexnest Flexbike Plus Exercise Cycle</h3>
+        
+        <button ><a href="https://amzn.eu/d/8JZKUaB"target="_blank">Add to Cart</a></button>
+    </div>
+    
+</section>
+<hr>
+<hr>
+<section>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <div class="product">
+        <img src="888.png" alt="Product 1">
+        <h3>Fittrip Snyper 221 29T MTB | Shimano 21 Speed </h3>
+        
+        <button><a href="https://amzn.eu/d/gyuPa49"target="_blank">Add to Cart</a></button>
+    </div>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    &nbsp;
+    
+    <div class="product" >
+        <img src="ww.png" alt="Product 2">
+        <h3>Redmi Smart Band Pro SportsWatch</h3>
+        
+        <button ><a href="https://amzn.eu/d/iRzig12"target="_blank">Add to Cart</a></button>
+    </div>
+    
+</section>
+</div>
+<hr><hr>
+<footer class="foot">
+    <br>
+    <h3>@SHIVA Fittness</h3>
+    <form action="#"method="post"><a href="#"target="_blank">@magarshivkumar</a></form>
+    
+    <h3>Thank You</h3>
+    <br>
+</footer>
+    
+</body>
+</html>
